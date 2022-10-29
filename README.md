@@ -1,2 +1,2 @@
 # Python_Wmts_Clear
-Removes empty tiles within given zoom range
+Removes XYZ tiles within given zoom range and file size
