@@ -58,7 +58,7 @@ def clearTiles():
     after_size=round(toplam_boyut(Klasor)/(1024*1024),2)
     dizin_report=os.path.basename(os.path.normpath(Klasor)) 
     
-    if deleted_count==0:
+    if deleted_count!=0:
         if not os.path.isfile(Rapor):
             f = open(Rapor, "a+")
             f.write("      "+"Tarih"+"               "+"Dizin"+"        "+"Toplam Dosya"+"    "+"Toplam Veri"+"       "+"Silinen Dosya"+"     "+"Silinen Veri"+"     "+"Kalan Dosya"+"    "+"Kalan Veri"+"    "+"Reduction"+"          "+"hh:mm:ss"+"\n")
